@@ -1,0 +1,46 @@
+/* MEDIAS */
+@media screen and (max-width: 1200px) {
+    
+    .nav-list {
+        display: none;
+    }
+
+    .navbar .search {
+        display: none;
+    }
+
+    .menu-btn {
+        display: inline-block!important;
+        z-index: 1000;
+    }
+
+    iframe {
+        width: 80%;
+        height: 60%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-container{
+        align-items: center;
+    }
+
+    .main-container .content {
+        text-align: center;
+    }
+
+    .main-container .sinopse{
+        text-align: justify;
+    }
+
+    .main-container .buttons {
+        justify-content: center;
+    }
+
+    .fundo-trailer i {
+        display: none;
+    }
+
+}

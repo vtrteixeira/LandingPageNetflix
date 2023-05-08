@@ -4,6 +4,7 @@ const close = document.querySelector(".close");
 const frame = document.querySelector(".frame");
 const menuIcon = document.querySelector (".menu-btn");
 const menu = document.querySelector (".menu-responsive");
+const fundoVideo = document.querySelector(".fundo-trailer");
 
 
 btn.addEventListener("click", function playTrailer() {
@@ -11,9 +12,11 @@ btn.addEventListener("click", function playTrailer() {
     video.style.backgroundColor = "rgb(0, 0, 0, .7)";
 });
 
-close.addEventListener("click", function closeVideo(){
+close.addEventListener,
+fundoVideo.addEventListener ("click", function closeVideo(){
     window.location.reload();
 })
+
 
 menuIcon.addEventListener ("click", function abrirMenu(){
     
@@ -24,3 +27,4 @@ menuIcon.addEventListener ("click", function abrirMenu(){
         menu.style.display = 'flex';
     }
 })
+
